@@ -8,8 +8,8 @@ from base64 import b64decode,b64encode
 
  # GET Request Example
 
-xKey = "YOUR_X-KEY"
-privateKeyBase64 = b64decode("YOUR_PRIVATE_KEY")
+xKey = "YOUR_X-KEY" # This is your KEY-ID relative to the PRIVATE KEY that you are using
+privateKeyBase64 = b64decode("YOUR_PRIVATE_KEY") # This is your PRIVATE_KEY shown as a base64 string when created in the application
 
 # If no Data being sent - This is the format required
 emptyBody = f"Signature{{body='', queryParam=''}}".encode()
