@@ -1,8 +1,10 @@
 const { subtle } = require("crypto").webcrypto; // Native Node Library
 const Stomp = require("stompjs"); // Stomp Protocol Library
 
-const xKey = "YOUR_X-KEY"
-const privateKeyBase64 = "YOUR_PRIVATE_KEY"
+
+
+const xKey = "YOUR_X-KEY" // This is your KEY-ID relative to the PRIVATE KEY that you are using
+const privateKeyBase64 = "YOUR_PRIVATE_KEY" // This is your PRIVATE_KEY shown as a base64 string when created in the application
 
 // Import Your Base64 Private Key
 
