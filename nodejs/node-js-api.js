@@ -43,7 +43,7 @@ const apiCallExample = async () => {
 
 // Websocket Example
 
-const client = Stomp.overWS("wss://ws.test.finxflo.com/stomp");
+const client = Stomp.overWS("wss://ws.finxflo.com/stomp");
 
 
 const websocketExample = async ( ) => {
